@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function () {
     successMessageBooking.style.display = 'block';
     setTimeout(function () {
       successMessageBooking.style.display = 'none';
-      goToLink('/index.html');
+      goToLink('/trippy/index.html');
     }, 3000); // Hide success message after 3 seconds
   }
 });
